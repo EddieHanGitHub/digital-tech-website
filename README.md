@@ -1,2 +1,3 @@
-# digital-tech-website
-A very basic project I have invested a lot of time into.
+# Digital Technology Website
+
+This is a very basic project I have invested a lot of time into.
