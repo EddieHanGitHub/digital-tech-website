@@ -112,13 +112,16 @@ a {
 }
 
 .button:nth-child(1) {
-    padding: 0.45rem 1.75rem;
+    padding: 1rem 3.145rem;
     margin-right: 20px;
     background: #161616;
+    font-size: 1rem;
 }
 
 .button:nth-child(2) {
     background: #161616;
+    padding: 1.01rem 4rem;
+    font-size: 1rem;
 }
 
 .button:hover {
@@ -400,7 +403,7 @@ li a:focus {
 }
 
 
-/* Missions Page */
+/* -------------------- Missions Page -------------------- */
 
 .section1 {
     background: transparent;
@@ -432,3 +435,78 @@ li a:focus {
 @media (min-width: 900px) {
 
 }
+
+
+/* -------------------- Contact Page -------------------- */
+
+.moonsSplash {
+    position: absolute;
+    z-index: -1;
+    height: auto;
+    left: 50vw;
+    top: 20vh;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactButtons {
+    position: relative;
+    top: 25px;
+    z-index: 3;
+}
+
+.buttonCntct {
+    border: 1px solid white;
+    padding: 0.45rem 3rem;
+    transition: 0.25s;
+    font-size: 25px;
+    position: absolute;
+    line-height: 2rem;
+}
+
+.buttonCntct:nth-child(1) {
+    padding: 0.45rem 3.5rem;
+    margin-top: -1rem;
+    font-size: 1rem;
+}
+
+.buttonCntct:nth-child(2) {
+    padding: 0.45rem 3.95rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.buttonCntct:nth-child(3) {
+    padding: 0.6rem 1.59rem;
+    margin-top: 7rem;
+    font-size: 1rem;
+}
+
+.buttonCntct:hover {
+    background-color: white;
+    color: black;
+}
+
+.mainContactText {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    transform: translate(20%, 150%);
+    margin: auto;
+    width: 90%;
+    line-height: 1rem;
+}
+
+.headerContactText {
+    font-size: 35px;
+}
+
+.mainContactSubText {
+    color: #989898;
+    font-size: 20px;
+}
+
