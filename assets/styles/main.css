@@ -469,7 +469,7 @@ a {
 }
 
 .buttonCntct:nth-child(1) {
-    padding: 0.45rem 3.5rem;
+    padding: 0.45rem 3.95rem;
     margin-top: -1rem;
     font-size: 1rem;
 }
@@ -481,7 +481,7 @@ a {
 }
 
 .buttonCntct:nth-child(3) {
-    padding: 0.6rem 1.59rem;
+    padding: 0.55rem 1.47rem;
     margin-top: 7rem;
     font-size: 1rem;
 }
