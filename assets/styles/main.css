@@ -259,8 +259,6 @@ li a:focus {
     header {
         flex-direction: column;
         align-items: left;
-        top: -3.3vh;
-        position: relative;
     }
 
     .logo {
@@ -298,8 +296,6 @@ li a:focus {
     header {
         flex-direction: row;
         justify-content: space-between;
-        top: -7.8vh;
-        position: relative;
     }
 
     .logo {
