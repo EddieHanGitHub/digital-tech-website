@@ -104,6 +104,10 @@ a {
     background: #161616;
 }
 
+.button:nth-child(2) {
+    background: #161616;
+}
+
 .button:hover {
     background-color: white;
     color: black;
@@ -250,6 +254,15 @@ li a:focus {
 
 }
 
+@media (min-width: 1100px) and (max-width: 1377px) {
+
+    .content-wrapper .splash {
+        width: 70vh;
+        height: 100vh;
+        top: -22rem;
+    }
+}
+
 
 
 @media (min-width: 10px) and (max-width: 500px) {
@@ -260,7 +273,7 @@ li a:focus {
 
     .brand {
         margin-top: 2.3vh;
-        left: 3vh;
+        left: 15px;
     }
 
     .headerText {
@@ -274,19 +287,20 @@ li a:focus {
     .buttons {
         display: flex;
         justify-content: center;
-    }
+        }
+
 
     .button {
         position: absolute;
     }
     
     .button:nth-child(1) {
-        top: 10vh;
+        margin-top: 70px;
         display: flex;
         justify-content: center;
-        left: 18.1vh;
-        padding-right: 3.1vh;
+        margin-right: 0px;
     }
+
 }
 
 @media (min-width: 10px) and (max-width: 1000px) {
