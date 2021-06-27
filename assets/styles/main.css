@@ -18,6 +18,17 @@ header {
     line-height: 1.6;
 }
 
+
+.mainWrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
 ul {
     margin: 0;
     padding: 0;
