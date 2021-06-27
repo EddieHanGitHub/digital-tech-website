@@ -148,6 +148,7 @@ a {
     height: 1000px;
     left: 180px;
     top: -470px;
+    overflow: hidden;
 }
 
 
