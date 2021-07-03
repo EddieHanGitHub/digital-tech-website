@@ -506,25 +506,192 @@ section:nth-child(even) {
 /* Tablet portrait */
 @media only screen and (min-width: 768px) {
     section {
-        background-color: green;
+        background-color: black;
     }
 
     .Image {
-        margin-top: 45vh;
+        margin-top: 0;
+        width: 40vw;
+        right: 5rem;
     }
+
+    .section1MainText .section1HeaderText {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1MainText {
+        text-align: left;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        top: 36%;
+        position: absolute;
+    }
+
+    .section1SubText {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        max-width: 17rem;
+    }
+
+    .section2MainText .section2HeaderText {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2MainText {
+        text-align: left;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        top: 55%;
+        position: absolute;
+    }
+
+    .section2SubText {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        max-width: 17rem;
+    }
+
+    .section3MainText .section3HeaderText {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3MainText {
+        text-align: left;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        top: 73%;
+        position: absolute;
+    }
+
+    .section3SubText {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        max-width: 17rem;
+    }
+
+
+    
+
 }
 
 /* Tablet landscape */
 @media only screen and (min-width: 992px) {
     section {
-        background-color: rgb(59, 59, 59);
+        background-color: black;
     }
+    .mission_button:nth-child(1) {
+        /* Horizon Voyager */
+    
+        padding: 1rem 2.798rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+        margin-top: -1rem;
+
+    }
+
+    .mission_button:nth-child(2) {
+
+    
+        margin-top: -5rem;
+        padding: 1rem 4rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+
+    }
+
+    .mission_button:nth-child(3) {
+        /* Luna */
+    
+        padding: 1rem 5.345rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+        margin-top: 3rem;
+
+    }
+
+
+    .mission_button:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .Image {
+        width: 60vw;
+    }
+
 }
 
 /* Laptops */
 @media only screen and (min-width: 1200px) {
     section {
-        background-color: yellow;
+        background-color: black;
     }
+
+    .Image {
+        width: 50vw;
+    }
+
+    .cta_button:nth-child(1) {
+        margin-top: -3.5rem;
+    }
+
+    .mission_button:nth-child(1) {
+        /* Horizon Voyager */
+    
+        padding: 1rem 2.798rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+        margin-top: -1rem;
+
+    }
+
+    .mission_button:nth-child(2) {
+
+    
+        margin-top: -5rem;
+        padding: 1rem 4rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+
+    }
+
+    .mission_button:nth-child(3) {
+        /* Luna */
+    
+        padding: 1rem 5.345rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+        margin-top: 3rem;
+
+    }
+
+
+    .mission_button:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #HorizonVoyager .Image {
+        z-index: 3;
+    }
+
 }
 
