@@ -24,6 +24,7 @@ html {
     width: 100vw;
     max-width: 1920px;
     background-color: black;
+    overflow: hidden;
 }
 
 /* ---------- Main Header Text ---------- */
