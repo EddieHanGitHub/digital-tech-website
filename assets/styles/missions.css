@@ -8,7 +8,6 @@ body {
     background-color: black;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-
 }
 
 html {
@@ -267,55 +266,6 @@ section {
 }
 
 
-/* ---------- Images ---------- */
-
-.Image {
-    width: 130vw;
-    margin-top: 40vh;
-    margin-right: -8vw;
-    position: absolute;
-    z-index: 1;
-}
-
-section:nth-child(2) .Image {
-    margin-top: 20vh;
-}
-
-/* For testing */
-section:nth-child(even) {
-    background-color: black;
-}
-
-/* min-width is that size and bigger */
-
-/* Mobile landscape */
-@media only screen and (min-width: 480px) {
-    section {
-        background-color: red;
-    }
-}
-
-/* Tablet portrait */
-@media only screen and (min-width: 768px) {
-    section {
-        background-color: green;
-    }
-}
-
-/* Tablet landscape */
-@media only screen and (min-width: 992px) {
-    section {
-        background-color: rgb(59, 59, 59);
-    }
-}
-
-/* Laptops */
-@media only screen and (min-width: 1200px) {
-    section {
-        background-color: yellow;
-    }
-}
-
 /* ---------- Call To Action Buttons ---------- */
 
 
@@ -338,7 +288,7 @@ section:nth-child(even) {
 .cta_button:nth-child(1) {
     /* Contact Us */
 
-    padding: 1rem 1.765rem;
+    padding: 1rem 2.554rem;
     margin-right: 20px;
     background: #161616;
     font-size: 1rem;
@@ -377,3 +327,80 @@ section:nth-child(even) {
     justify-content: center;
     margin-right: 0px;
 }
+
+.CTAMainText .CTAHeaderText {
+    color: white;
+    position: relative;
+    z-index: 3;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 47px;
+    text-decoration: none;
+    bottom: 15vh;
+    background-image: linear-gradient(to left, #00E0FF, #FF00D6) !important;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    transition: background-size .5s ease;
+    border-radius: 2px;
+    background-position-y: 44px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+}
+
+
+/* ---------- Images ---------- */
+
+.Image {
+    width: 130vw;
+    margin-top: 40vh;
+    margin-right: -8vw;
+    position: absolute;
+    z-index: 1;
+}
+
+section:nth-child(2) .Image {
+    margin-top: 20vh;
+}
+
+/* For testing */
+section:nth-child(even) {
+    background-color: black;
+}
+
+/* min-width is that size and bigger */
+
+/* Mobile landscape */
+@media only screen and (min-width: 480px) {
+    section {
+        background-color: red;
+    }
+}
+
+/* Tablet portrait */
+@media only screen and (min-width: 768px) {
+    section {
+        background-color: green;
+    }
+
+    .Image {
+        margin-top: 45vh;
+    }
+}
+
+/* Tablet landscape */
+@media only screen and (min-width: 992px) {
+    section {
+        background-color: rgb(59, 59, 59);
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 1200px) {
+    section {
+        background-color: yellow;
+    }
+}
+
