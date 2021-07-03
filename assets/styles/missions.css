@@ -359,7 +359,10 @@ section {
     margin-right: -8vw;
     position: absolute;
     z-index: 1;
+    overflow: hidden;
 }
+
+
 
 section:nth-child(2) .Image {
     margin-top: 20vh;
