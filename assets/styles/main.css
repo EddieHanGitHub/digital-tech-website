@@ -403,40 +403,6 @@ li a:focus {
 }
 
 
-/* -------------------- Missions Page -------------------- */
-
-.section1 {
-    background: transparent;
-    position: relative;
-    top: -5vw;
-}
-
-.section1 h1 {
-    color: white;
-    text-align: left;
-    font-size: 4vw;
-    text-transform: uppercase;
-    position: relative;
-    top: 10vw;
-    display: flex;
-    justify-content: center;
-}
-
-.section1 img {
-    width: 10000px;
-    height: 1000px;
-}
-
-.image {
-    display: flex;
-    justify-content: center;
-}
-
-@media (min-width: 900px) {
-
-}
-
-
 /* -------------------- Contact Page -------------------- */
 
 .moonsSplash {

@@ -3,35 +3,93 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eclipse Industries | Missions</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/missions.css">
     <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img class="logo" src="./assets/images/logo-light.png"></img></a>
-        <div class="brand"><a href="#">Eclipse Industries</a></div>
-        <ul class="nav">
+    <div class="main-wrapper">
+        <header>
+            <a href="index.html"><img class="logo" src="./assets/images/logo-light.png"></img></a>
+            <div class="brand"><a href="#">Eclipse Industries</a></div>
+        </header>
+    
+        <ul class="navbar" id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="missions.html">Missions</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a class="close" href="#">
+                <img src="./assets/images/closeWhite.png" alt="close">
+            </a>
         </ul>
-    </header>
+        <a class="hamburger" href="#navbar">
+            <img src="./assets/images/menuWhite.png" alt="menu">
+        </a>
 
-    <section class="section1">
-        <h1>
-            The World's Most Efficient Spacecraft
-        </h1>
-        <div class="image">
-            <img class="img1" src="./assets/images/hills.jpg">
-        </div>
-    </section>
+        <section>
+            <div class="mission_buttons">
+                <a class="mission_button" href="#HorizonVoyager">Horizon Voyager</a>
+                <a class="mission_button" href="#Starchaser">Starchaser</a>
+                <a class="mission_button" href="#Luna">Luna</a>
+            </div>
+            <div class="mission_mainText">
+                <p class="mission_headerText">Ongoing Missions</p>
+            </div>
+        </section>
 
+        <section id="Starchaser">
+            <div class="section1MainText">
+            <hr class="Section1Line">  <!-- This is the line in question. -->
+                <h3 class="section1HeaderText">Starchaser</h3>
+                <h3 class="section1SubText">Exploring the remains of distant
+                    fallen stars. Dedicated to unearthing
+                    the mysteries surrounding nebulae and star
+                    formation clusters, with a head-on 
+                    approach. Covered in stardust.</h3>
+            </div>
+
+            <img class="Image" src="./assets/images/nebula1.jpg" alt="Nebula">
+        </section>
+
+        <section id="HorizonVoyager">
+            <div class="section2MainText">
+                <h3 class="section2HeaderText">Horizon Voyager</h3>
+                <h3 class="section2SubText">Dedicated to surveying and mapping our 
+                    long forgotten friend Pluto. The basis for 
+                    a permanent settlement somewhere 
+                    along the equatorial plane.</h3>
+            </div>
+
+            <img class="Image" src="./assets/images/pluto.png" alt="Pluto">
+        </section>
+
+        <section id="Luna">
+            <div class="section3MainText">
+                <h3 class="section3HeaderText">Luna</h3>
+                <h3 class="section3SubText">Taking a new approach
+                    to our nearest cosmic neighbor.
+                    Challenging lunar industry 
+                    standards with revolutionary
+                    technological and scientific breakthroughs</h3>
+            </div>
+            <img class="Image" src="./assets/images/MoonPhoto.png" alt="The Moon">
+        </section>
+
+        <section>
+            <div class="cta_buttons">
+                <a class="cta_button" href="">Contact Us</a>
+                <a class="cta_button" href="">About Us</a>
+            </div>
+        </section>
+
+    </div>
 </body>
 
 </html>
