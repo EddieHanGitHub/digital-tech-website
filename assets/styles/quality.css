@@ -1,0 +1,58 @@
+
+/* All of the code in here is a part of the quality system that Ethan Wales (l3) helped me to set up. 
+This system allows you to choose the quality of the image before they load, meaning that you have no broadband
+issues. I also followed a tutorial and then customized the loader spinny. (It used to be orange) */
+
+#loader {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hide {
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.main-spinner:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    border-radius: 50%;
+    border: 3px solid #1f1f1f;
+    border-top-color: white;
+    animation: spinner 1s linear infinite;
+
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}

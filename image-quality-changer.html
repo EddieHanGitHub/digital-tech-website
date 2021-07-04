@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse Industries | Quality</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        p {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        button {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 1rem 2rem;
+            margin: 0 1rem;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        button:hover {
+            background-color: #1d1d1d;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Please Select Image Quality</p>
+    <div>
+        <button onclick="setImgQuality('high')">HIGH</button>
+        <button onclick="setImgQuality('low');">LOW</button>
+    </div>
+    <script>
+        function setImgQuality(quality) {
+            if (quality == "low") {
+                localStorage.setItem("image-quality", "low");
+            } else {
+                localStorage.setItem("image-quality", "high");
+            }
+            window.location.href = `./${new URLSearchParams(window.location.search).get("lastpage")}`
+        }
+    </script>
+</body>
+
+</html>

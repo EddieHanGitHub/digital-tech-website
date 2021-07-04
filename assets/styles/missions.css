@@ -499,7 +499,9 @@ section:nth-child(even) {
         margin-top: 0.7rem;
     }
 
-    
+    .quote {
+        visibility: collapse;
+    }
 
 }
 
@@ -581,7 +583,9 @@ section:nth-child(even) {
         max-width: 17rem;
     }
 
-
+    .quote {
+        visibility: collapse;
+    }
     
 
 }
@@ -634,6 +638,10 @@ section:nth-child(even) {
         width: 60vw;
     }
 
+    .quote {
+        visibility: collapse;
+    }
+
 }
 
 /* Laptops */
@@ -647,7 +655,84 @@ section:nth-child(even) {
     }
 
     .cta_button:nth-child(1) {
+        margin-top: 0.5rem;
+    }
+
+    .cta_button:nth-child(2) {
+        margin-top: 5rem;
+    }
+
+    .mission_button:nth-child(1) {
+        /* Horizon Voyager */
+    
+        padding: 1rem 2.798rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+        margin-top: 2rem;
+
+    }
+
+    .mission_button:nth-child(2) {
+
+    
+        margin-top: -2rem;
+        padding: 1rem 4rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+
+    }
+
+    .mission_button:nth-child(3) {
+        /* Luna */
+    
+        padding: 1rem 5.345rem;
+        background: #161616;
+        font-size: 1rem;
+        white-space: nowrap;
+        margin-top: 6rem;
+
+    }
+
+
+    .mission_button:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #HorizonVoyager .Image {
+        z-index: 3;
+        top: 40%;
+    }
+
+    #Luna .Image {
+        top: 60%;
+        z-index: 2;
+    }
+
+    .quote {
+        visibility: collapse;
+    }
+
+}
+
+/* Personal Computers */
+@media only screen and (min-width: 1800px) {
+    section {
+        background-color: black;
+    }
+
+    .Image {
+        width: 50vw;
+    }
+
+    .cta_button:nth-child(1) {
         margin-top: -3.5rem;
+    }
+
+    .cta_button:nth-child(2) {
+        margin-top: 1rem;
     }
 
     .mission_button:nth-child(1) {
@@ -693,5 +778,14 @@ section:nth-child(even) {
         z-index: 3;
     }
 
+    .quote {
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        right: 29.9%;
+    }
+
 }
+
 

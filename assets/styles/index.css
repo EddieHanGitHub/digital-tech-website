@@ -1,3 +1,8 @@
+/* The reason that I have a whole new stylesheet for this tiny amount of code
+is because the script tags were malfunctioning in the main index HTML document.
+This is only to style the body of ONE page, and since multiple things link to the
+main.css stylesheet, I am unable to place it there. Sorry for the inconvenience. */
+
 body {
     overflow-Y: hidden;
     overflow-x: hidden;

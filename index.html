@@ -15,9 +15,11 @@
     <preference name="DisallowOverscroll" value="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="./bodyScrollLock.js"></script>
+    <link rel="stylesheet" href="./assets/styles/quality.css">
 </head>
 
 <body>
+
 <div class="mainWrap">
     <header>
         <a href="index.html"><img class="logo" src="./assets/images/logo-light.png"></img></a>
@@ -51,16 +53,23 @@
     </div>
 
     <div class="content-wrapper">
-        <img class="splash" src="./assets/images/splash.jpg">
+        <img class="splash" src="./assets/images/splash.jpg" alt="Planet Jupiter">
     </div>
 
     <div class="triangleImage">
-        <img class="triangleCorner" src="./assets/images/Polygon.svg">
+        <img class="triangleCorner" src="./assets/images/Polygon.svg" alt="Triangle Border">
     </div>
 
 </div>
 <script>bodyScrollLock.disableBodyScroll(document.querySelector('.mainWrap'));</script>
+<div id="loader">
+    <div class="main-spinner">
+    </div>
+</div>
+<script src="./assets/quality-scripts/about-contact-index-quality.js"></script>
 </body>
+
+
 
 
 </html>
