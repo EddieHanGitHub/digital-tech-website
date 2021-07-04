@@ -1,3 +1,8 @@
+/* This code completely stops the user from being able to scroll in any direction whatsoever. Needed for a
+specific kind of mobile device that's very annoying. *cough* Apple and Safari *cough* */
+
+
+
 (function (global, factory) {
     if (typeof define === "function" && define.amd) {
       define(['exports'], factory);

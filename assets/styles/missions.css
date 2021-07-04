@@ -20,11 +20,12 @@ html {
 .main-wrapper {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     width: 100vw;
     max-width: 1920px;
     background-color: black;
     overflow: hidden;
+    transform: translateX(-50%);
 }
 
 /* ---------- Main Header Text ---------- */
